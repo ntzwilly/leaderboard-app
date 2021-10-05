@@ -18,7 +18,7 @@ const scoreButton = elementGenerator('button', 'refresh');
 scoreButton.textContent = 'Refresh';
 const scoreList = elementGenerator('ul', 'score-ul');
 
-for (let i = 1; i < 8; i += 1) {
+for (let i = 1; i <= 8; i += 1) {
   const list = elementGenerator('li', 'score-li');
   list.textContent = `Name: ${i}`;
   scoreList.appendChild(list);
