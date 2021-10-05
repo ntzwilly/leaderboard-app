@@ -1,64 +1,54 @@
 import './style.css';
 
-function elementGenerator(typeName, className, content, idName) {
+const elementGenerator = (typeName, className) => {
   const element = document.createElement(typeName);
   if (className) element.className = className;
-  if (content) element.textContent = content;
-  if (idName) element.id = idName;
-
   return element;
-}
+};
 
-const root = elementGenerator('main', 'content', null, null);
-const title = elementGenerator('h1', 'title', null, null);
+const root = elementGenerator('main', 'content');
+const title = elementGenerator('h1', 'title');
 title.textContent = 'Leaderboard';
-const app = elementGenerator('div', 'leaderboard-app', null, null);
-const scoreDiv = elementGenerator('div', 'score', null, null);
-const scoreHeader = elementGenerator('div', 'score-header', null, null);
-const recentScore = elementGenerator('h2', 'recent-score', null, null);
+const app = elementGenerator('div', 'leaderboard-app');
+const scoreDiv = elementGenerator('div', 'score');
+const scoreHeader = elementGenerator('div', 'score-header');
+const recentScore = elementGenerator('h2', 'recent-score');
 recentScore.textContent = 'Recent scores';
-const scoreButton = elementGenerator('button', 'refresh', null, null);
+const scoreButton = elementGenerator('button', 'refresh');
 scoreButton.textContent = 'Refresh';
-const scoreList = elementGenerator('ul', 'score-ul', null, null);
+const scoreList = elementGenerator('ul', 'score-ul');
 
-for (let i = 1; i < 8; i++) {
-  const list = elementGenerator('li', 'score-li', null, null);
-  list.textContent = `Score ${i}`;
+for (let i = 1; i < 8; i += 1) {
+  const list = elementGenerator('li', 'score-li');
+  list.textContent = `Name: ${i}`;
   scoreList.appendChild(list);
 }
 
-const formDiv = elementGenerator('div', 'form-div', null, null);
+const formDiv = elementGenerator('div', 'form-div');
 
-const addScoreHeader = elementGenerator('h2', 'add-score', null, null);
+const addScoreHeader = elementGenerator('h2', 'add-score');
 addScoreHeader.textContent = 'Add your score';
 
-const form = elementGenerator('form', 'form', null, null);
+const form = elementGenerator('form', 'form');
 
-const addName = elementGenerator('input', 'add-name', null, null);
+const addName = elementGenerator('input', 'add-name');
 addName.placeholder = 'Your name';
-const addScore = elementGenerator('input', 'add-score', null, null);
+const addScore = elementGenerator('input', 'add-score');
 addScore.placeholder = 'Your score';
-const submit = elementGenerator('button', 'submit', null, null);
+const submit = elementGenerator('button', 'submit');
 submit.textContent = 'Submit';
 
-form.appendChild(addName);
-form.appendChild(addScore);
-form.appendChild(submit);
+form.append(addName, addScore, submit);
 
-formDiv.appendChild(addScoreHeader);
-formDiv.appendChild(form);
+formDiv.append(addScoreHeader, form);
 
-scoreHeader.appendChild(recentScore);
-scoreHeader.appendChild(scoreButton);
+scoreHeader.append(recentScore, scoreButton);
 
-scoreDiv.appendChild(scoreHeader);
-scoreDiv.appendChild(scoreList);
+scoreDiv.append(scoreHeader, scoreList);
 
-app.appendChild(scoreDiv);
-app.appendChild(formDiv);
+app.append(scoreDiv, formDiv);
 
-root.appendChild(title);
-root.appendChild(app);
+root.append(title, app);
 
 const content = document.getElementById('root');
 
