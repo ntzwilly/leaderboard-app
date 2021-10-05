@@ -45,8 +45,14 @@ form {
 }
 
 .add-name,
-.add-score {
+.add-score,
+.add-score-header {
   margin-bottom: 20px;
+}
+
+.add-name,
+.add-score {
+  border: 2px solid black;
 }
 
 input,

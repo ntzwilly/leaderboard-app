@@ -20,13 +20,13 @@ const scoreList = elementGenerator('ul', 'score-ul');
 
 for (let i = 1; i <= 8; i += 1) {
   const list = elementGenerator('li', 'score-li');
-  list.textContent = `Name: ${i}`;
+  list.textContent = `Name: ${Math.floor(Math.random() * 100)}`;
   scoreList.appendChild(list);
 }
 
 const formDiv = elementGenerator('div', 'form-div');
 
-const addScoreHeader = elementGenerator('h2', 'add-score');
+const addScoreHeader = elementGenerator('h2', 'add-score-header');
 addScoreHeader.textContent = 'Add your score';
 
 const form = elementGenerator('form', 'form');
