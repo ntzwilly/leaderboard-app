@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 80%;
+}
+
+h1 {
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.leaderboard-app {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px auto;
+}
+
+.score-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.refresh,
+.submit {
+  margin-left: 20px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 2px solid black;
+  box-shadow: 5px 5px 2px 1px black;
+}
+
+.add-name,
+.add-score,
+.add-score-header {
+  margin-bottom: 20px;
+}
+
+.add-name,
+.add-score {
+  border: 2px solid black;
+}
+
+input,
+.submit {
+  padding: 5px;
+}
+
+.submit {
+  width: 50%;
+  align-self: flex-end;
+}
+
+.score-li {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.score-ul li:nth-child(even) {
+  background: gainsboro;
+}
+
+.score-ul {
+  border: 2px solid black;
+}
