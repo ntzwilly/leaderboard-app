@@ -31,7 +31,7 @@ h1 {
 
 h1,
 h2 {
-  font-family: MyFont;
+  font-family: 'MyFont', sans-serif;
   background: -webkit-linear-gradient(orange, yellow, green);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
