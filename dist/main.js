@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  font-family: \\\"Poppins\\\", sans-serif;\\n}\\n\\nmain {\\n  width: 80%;\\n}\\n\\nh1 {\\n  margin-left: 200px;\\n  margin-top: 50px;\\n  margin-bottom: 100px;\\n}\\n\\n.leaderboard-app {\\n  display: flex;\\n  justify-content: space-around;\\n  margin: 100px auto;\\n}\\n\\n.score-header {\\n  display: flex;\\n  flex-direction: row;\\n  margin-bottom: 20px;\\n}\\n\\nform {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.refresh,\\n.submit {\\n  margin-left: 20px;\\n  padding: 5px 10px;\\n  background-color: #fff;\\n  border: 2px solid black;\\n  box-shadow: 5px 5px 2px 1px black;\\n}\\n\\n.add-name,\\n.add-score,\\n.add-score-header {\\n  margin-bottom: 20px;\\n}\\n\\n.add-name,\\n.add-score {\\n  border: 2px solid black;\\n}\\n\\ninput,\\n.submit {\\n  padding: 5px;\\n}\\n\\n.submit {\\n  width: 50%;\\n  align-self: flex-end;\\n}\\n\\n.score-li {\\n  list-style-type: none;\\n  padding-left: 10px;\\n}\\n\\n.score-ul li:nth-child(even) {\\n  background: gainsboro;\\n}\\n\\n.score-ul {\\n  border: 2px solid black;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-boilerplate/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _HFF_Fire_Dancer_ttf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./HFF Fire Dancer.ttf */ \"./src/HFF Fire Dancer.ttf\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_HFF_Fire_Dancer_ttf__WEBPACK_IMPORTED_MODULE_2__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box;\\n}\\n\\n@font-face {\\n  font-family: MyFont;\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\\n\\nbody {\\n  font-family: \\\"Poppins\\\", sans-serif;\\n  font-size: x-large;\\n  overflow: hidden;\\n  background-color: rgb(0, 0, 0);\\n}\\n\\nmain {\\n  width: 90%;\\n  margin: 0 auto;\\n}\\n\\nh1 {\\n  margin-left: 70px;\\n  margin-top: 50px;\\n  font-size: 2.5rem;\\n  animation-name: moveInRight;\\n  animation-duration: 1s;\\n}\\n\\nh1,\\nh2 {\\n  font-family: 'MyFont', sans-serif;\\n  background: -webkit-linear-gradient(orange, yellow, green);\\n  -webkit-background-clip: text;\\n  -webkit-text-fill-color: transparent;\\n  padding: 15px;\\n}\\n\\n.leaderboard-app {\\n  display: flex;\\n  justify-content: space-around;\\n  margin: 80px auto;\\n}\\n\\n.score-header {\\n  display: flex;\\n  flex-direction: row;\\n  margin-bottom: 30px;\\n}\\n\\n.recent-score {\\n  animation-name: moveInRight2;\\n  animation-duration: 1s;\\n}\\n\\nform {\\n  display: flex;\\n  flex-direction: column;\\n}\\n\\n.refresh,\\n.submit {\\n  color: black;\\n  margin-left: 20px;\\n  padding: 5px 10px;\\n  background: -webkit-linear-gradient(orange, yellow, green);\\n  border: 2px solid orange;\\n  box-shadow: 3px 2px 2px green;\\n  font-size: 0.8em;\\n  cursor: pointer;\\n  border-radius: 8px;\\n}\\n\\n.refresh {\\n  padding-left: 30px;\\n  padding-right: 30px;\\n}\\n\\n.submit {\\n  width: 50%;\\n  align-self: flex-end;\\n  padding: 10px 0;\\n}\\n\\n.input {\\n  padding: 5px;\\n}\\n\\n.refresh:hover,\\n.submit:hover {\\n  color: green;\\n  border: 2px solid #008000;\\n  background-color: rgb(0, 2, 5);\\n  transition: all 0.4s ease-in-out;\\n}\\n\\n.refresh:active,\\n.submit:active {\\n  box-shadow: none;\\n}\\n\\n.add-score-header {\\n  animation-name: moveInTop;\\n  animation-duration: 1s;\\n  margin-bottom: 30px;\\n  border: none;\\n}\\n\\n.add-name,\\n.add-score {\\n  margin-bottom: 20px;\\n  padding: 8px 20px;\\n  font-size: 0.9em;\\n  border-radius: 8px;\\n}\\n\\n.add-name:focus,\\n.add-score:focus {\\n  outline-width: 0;\\n}\\n\\n.score-ul {\\n  max-height: 47vh;\\n  overflow-y: scroll;\\n  border: 2px solid rgb(36, 35, 35);\\n  background-color: gainsboro;\\n}\\n\\n.score-li {\\n  list-style-type: none;\\n  padding: 5px 20px;\\n  font-size: 0.8em;\\n}\\n\\n.score-ul li:nth-child(even) {\\n  background: rgb(131, 122, 122);\\n}\\n\\n@keyframes moveInRight {\\n  0% {\\n    opacity: 0;\\n    transform: translateX(-200px);\\n  }\\n\\n  100% {\\n    opacity: 100%;\\n    transform: translateX(100px);\\n  }\\n}\\n\\n@keyframes moveInRight2 {\\n  0% {\\n    opacity: 0;\\n    transform: translateX(-200px);\\n  }\\n\\n  100% {\\n    opacity: 100%;\\n    transform: translateX(0);\\n  }\\n}\\n\\n@keyframes moveInTop {\\n  0% {\\n    opacity: 0;\\n    transform: translateY(-200px);\\n  }\\n\\n  100% {\\n    opacity: 100%;\\n    transform: translateY(0);\\n  }\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-boilerplate/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === \"string\") {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, \"\"]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\n//# sourceURL=webpack://webpack-boilerplate/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = url && url.__esModule ? url.default : url;\n\n  if (typeof url !== \"string\") {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://webpack-boilerplate/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -100,6 +110,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, style) {\
 
 /***/ }),
 
+/***/ "./src/HFF Fire Dancer.ttf":
+/*!*********************************!*\
+  !*** ./src/HFF Fire Dancer.ttf ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"caa3c2ab05b244a23ee6.ttf\";\n\n//# sourceURL=webpack://webpack-boilerplate/./src/HFF_Fire_Dancer.ttf?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -161,6 +181,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -175,6 +207,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/

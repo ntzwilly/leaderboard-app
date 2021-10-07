@@ -2,9 +2,9 @@
 
 # Leaderboard
 
-> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved to an external Leaderboard API service.
+> The leaderboard-app website displays scores submitted by different players. It also allows you to submit your score. All data is preserved to an external Leaderboard API service.
 
-![screenshot](https://user-images.githubusercontent.com/9049260/136179678-0fab4714-c499-4dff-9048-9fcc71d00dc2.png)
+![screenshot](https://user-images.githubusercontent.com/9049260/136402621-4c6b10f2-d404-42b2-9b66-63862404b064.png)
 ## Built With
 
 - javaScript
